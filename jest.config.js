@@ -1,12 +1,12 @@
 module.exports = {
-    preset: 'react-native',
+    preset: 'jest-expo',
     setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
     transform: {
       '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest']
     },
     transformIgnorePatterns: [
-      'node_modules/(?!(react-native|@react-native|react-native-reanimated|expo)/)'
+      'node_modules/(?!(react-native|@react-native|react-native-reanimated|expo|expo-app-loading|expo-constants|expo-file-system|expo-font|expo-asset|expo-linking|expo-modules-core|expo-router|expo-splash-screen|expo-status-bar|expo-updates|expo-symbols|expo-web-browser|@expo)/)'
     ],
     testPathIgnorePatterns: [
       '<rootDir>/node_modules/',
