@@ -6,7 +6,7 @@ module.exports = {
       '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest']
     },
     transformIgnorePatterns: [
-      'node_modules/(?!(react-native|@react-native|react-native-reanimated|expo|expo-app-loading|expo-constants|expo-file-system|expo-font|expo-asset|expo-linking|expo-modules-core|expo-router|expo-splash-screen|expo-status-bar|expo-updates|expo-symbols|expo-web-browser|@expo)/)'
+      'node_modules/(?!(react-native|@react-native|react-native-reanimated|expo|expo-app-loading|expo-constants|expo-file-system|expo-font|expo-asset|expo-linking|expo-modules-core|expo-router|expo-splash-screen|expo-status-bar|expo-updates|expo-symbols|expo-web-browser|@expo|@react-navigation|react-native-gesture-handler|react-native-safe-area-context|react-native-screens|@react-native-async-storage)/)'
     ],
     testPathIgnorePatterns: [
       '<rootDir>/node_modules/',
